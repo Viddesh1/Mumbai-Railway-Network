@@ -1,0 +1,299 @@
+
+git commit --allow-empty -m ""
+
+
+Central Branch:
+
+Chhatrapati Shivaji Maharaj Terminus (CSMT)
+Masjid
+Sandhurst Road
+Byculla
+Chinchpokli
+Currey Road
+Parel
+Dadar
+Matunga
+Sion
+Kurla
+Vidyavihar
+Ghatkopar
+Vikhroli
+Kanjur Marg
+Bhandup
+Nahur
+Mulund
+Thane
+Kalwa
+Mumbra
+Diva Junction
+Kopar
+Dombivli
+Thakurli
+Kalyan Junction
+
+Central Branch (Kalyan-Khopoli) branch:
+
+Kalyan Junction (split branch)
+Vithalwadi
+Ulhasnagar
+Ambarnath
+Badlapur
+Vangani
+Shelu
+Neral Junction
+Bhivpuri Road
+Karjat
+Palasdari
+Kelavli
+Dolavli
+Lowjee
+Khopoli
+
+Central Branch (Kalyan-Kasara) branch:
+
+Kalyan Junction (No split branch)
+Shahad
+Ambivli
+Titwala
+Khadavli
+Vasind
+Asangaon
+Atgaon
+Thansit
+Khardi
+Umbermali
+Kasara
+
+Harbour branch:
+
+Chhatrapati Shivaji Maharaj Terminus (CSMT)
+Masjid
+Sandhurst Road
+Dockyard Road
+Reay Road
+Cotton Green
+Sewri
+Wadala Road
+
+Harbour branch:
+
+Wadala Road (No split)
+Guru Tegh Bahadur Nagar
+Chunabhatti
+Kurla
+Tilak Nagar
+Chembur
+Govandi
+Mankhurd
+Vashi
+Sanpada
+Juinagar
+Nerul
+Seawoods-Darave
+CBD Belapur
+Kharghar
+Mansarovar
+Khandeshwar
+Panvel
+
+Harbour branch:
+
+Wadala Road (split yes)
+King's Circle
+Mahim Junction
+Bandra
+Khar Road
+Santacruz
+Vile Parle
+Andheri
+Jogeshwari
+Ram Mandir
+Goregaon
+Malad (Under Construction)
+Kandivali (Under Construction)
+Borivali (Under Construction)
+
+Western Branch:
+
+Churchgate
+Marine Lines
+Charni Road
+Grant Road
+Mumbai Central
+Mahalaxmi
+Lower Parel
+Prabhadevi
+Dadar
+Matunga Road
+Mahim Junction
+Bandra
+Khar Road
+Santacruz
+Vile Parle
+Andheri
+Jogeshwari
+Ram Mandir
+Goregaon
+Malad
+Kandivli
+Borivali
+Dahisar
+Mira Road
+Bhayandar
+Naigaon
+Vasai Road
+Nallasopara
+Virar
+Vaitarna
+Saphale
+Kelve Road
+Palghar
+Umroli
+Boisar
+Vangaon
+Dahanu Road
+
+
+Thane-Vashi Branch:
+
+Thane
+Digha Gaon
+Airoli
+Rabale
+Ghansoli
+Kopar Khairane
+Turbhe
+Sanpada
+Vashi
+Juinagar
+Nerul
+Seawoods–Darave
+CBD Belapur
+Kharghar
+Mansarovar
+Khandeshwar
+Panvel
+
+Nerul-Uran Branch:
+
+Nerul
+Seawoods–Darave
+CBD Belapur
+Sagar Sangam
+Targhar
+Bamandongri
+Kharkopar
+Gavhan
+Ranjanpada
+Nhava Sheva
+Dronagiri
+Uran
+
+Metro Rail From versova to Ghatkopar Branch:
+
+Versova
+D N Nagar
+Azad Nagar
+Andheri
+Western Express Highway
+Chakala (J B Nagar)
+Airport Road
+Marol Naka
+Saki Naka
+Asalpha
+Jagruti Nagar
+Ghatkopar
+
+(Reverse)
+Ghatkopar
+Jagruti Nagar
+Asalpha
+Saki Naka
+Marol Naka
+Airport Road
+Chakala (J B Nagar)
+Western Express Highway
+Andheri
+Azad Nagar
+D N Nagar
+Versova
+
+
+Mono Rail branch:
+
+Chembur
+VNP and RC Marg Junction
+Fertiliser Township
+Bharat Petroleum
+Mysore Colony
+Bhakti Park
+Wadala Depot
+Guru Tegh Bahadur Nagar
+Antop Hill
+Acharya Atre Nagar
+Wadala Bridge
+Dadar (East)
+Naigaon
+Ambedkar Nagar
+Mint Colony
+Lower Parel
+Sant Gadge Maharaj Chowk
+
+Indian Rail branch:
+
+Vasai Road
+Juchandra
+Kaman Road
+Kharbao
+Bhiwandi Road
+Kopar
+Diva Junction
+Dativali
+Nilaje
+Taloja
+Navade Road
+Kalamboli
+Panvel
+Somtane
+Rasayani
+Apta
+Jite
+Hamrapur
+Pen
+Kasu
+Nagothane
+Nidi
+Roha
+
+Metro: Gundavali to Andheri west branch
+
+Gundavali
+Mogra
+Jogeshwari East
+Goregaon East
+Aarey
+Dindoshi
+Kurar
+Akurli
+Poisar
+Magathane
+Devipada
+Rashtriya Udyan
+Ovaripada
+Dahisar East
+Anand Nagar
+Kandarpada
+Mandapeshwar
+Eksar
+Borivali West
+Shimpoli
+Kandivali
+Dahanukar Wadi
+Valnai-Meeth Chowky
+Malad West
+Lower Malad
+Bangur Nagar
+Goregaon West
+Oshiwara
+Lower Oshiwara
+Andheri West
