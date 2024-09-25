@@ -1,0 +1,346 @@
+git branch Central
+git branch Harbour
+git branch Western
+
+git checkout Central
+git commit --allow-empty -m "Chhatrapati Shivaji Maharaj Terminus (CSMT)"
+git commit --allow-empty -m "Masjid"
+git commit --allow-empty -m "Sandhurst Road"
+git commit --allow-empty -m "Byculla"
+git commit --allow-empty -m "Chinchpokli"
+git commit --allow-empty -m "Currey Road"
+git commit --allow-empty -m "Parel"
+git commit --allow-empty -m "Dadar"
+
+git checkout Western
+git commit --allow-empty -m "Churchgate"
+git commit --allow-empty -m "Marine Lines"
+git commit --allow-empty -m "Charni Road"
+git commit --allow-empty -m "Grant Road"
+git commit --allow-empty -m "Mumbai Central"
+git commit --allow-empty -m "Mahalaxmi"
+git commit --allow-empty -m "Lower Parel"
+git commit --allow-empty -m "Prabhadevi"
+git commit --allow-empty -m "Dadar"
+
+git checkout Central
+git merge Western --no-ff --no-edit
+
+git checkout Western
+git commit --allow-empty -m "Matunga Road"
+git commit --allow-empty -m "Mahim Junction"
+
+git checkout Harbour
+git commit --allow-empty -m "Chhatrapati Shivaji Maharaj Terminus (CSMT)"
+git commit --allow-empty -m "Masjid"
+git commit --allow-empty -m "Sandhurst Road"
+git commit --allow-empty -m "Dockyard Road"
+git commit --allow-empty -m "Reay Road"
+git commit --allow-empty -m "Cotton Green"
+git commit --allow-empty -m "Sewri"
+git commit --allow-empty -m "Wadala Road"
+
+git commit --allow-empty -m "King's Circle"
+git commit --allow-empty -m "Mahim Junction"
+
+git checkout <Commit-Hash> <-- Wadala
+git branch Wadala-Kurla
+git checkout Wadala-Kurla
+git commit --allow-empty -m "Guru Tegh Bahadur Nagar"
+git commit --allow-empty -m "Chunabhatti"
+git commit --allow-empty -m "Kurla"
+
+git checkout Western
+git merge Harbour --no-ff --no-edit
+
+git checkout Central
+git commit --allow-empty -m "Matunga"
+git commit --allow-empty -m "Sion"
+git commit --allow-empty -m "Kurla"
+
+git checkout Central
+git merge Wadala-Kurla --no-ff --no-edit
+
+git checkout Central
+git commit --allow-empty -m "Vidyavihar"
+git commit --allow-empty -m "Ghatkopar"
+git commit --allow-empty -m "Vikhroli"
+git commit --allow-empty -m "Kanjur Marg"
+git commit --allow-empty -m "Bhandup"
+git commit --allow-empty -m "Nahur"
+git commit --allow-empty -m "Mulund"
+git commit --allow-empty -m "Thane"
+
+git checkout <Commit-Hash>  <-- Ghatkopar-commit
+git branch Metro-Ghatkopar-Versova
+git checkout Metro-Ghatkopar-Versova
+git commit --allow-empty -m "Ghatkopar"
+git commit --allow-empty -m "Jagruti Nagar"
+git commit --allow-empty -m "Asalpha"
+git commit --allow-empty -m "Saki Naka"
+git commit --allow-empty -m "Marol Naka"
+git commit --allow-empty -m "Airport Road"
+git commit --allow-empty -m "Chakala (J B Nagar)"
+git commit --allow-empty -m "Western Express Highway"
+git commit --allow-empty -m "Andheri"
+git commit --allow-empty -m "Azad Nagar"
+git commit --allow-empty -m "D N Nagar"
+
+git checkout <Commit-Hash> <-- Western Express Highway
+git branch Metro-Gundavali-Andheri-West
+git checkout Metro-Gundavali-Andheri-West
+git commit --allow-empty -m "Gundavali"
+git commit --allow-empty -m "Mogra"
+git commit --allow-empty -m "Jogeshwari East"
+git commit --allow-empty -m "Goregaon East"
+git commit --allow-empty -m "Aarey"
+git commit --allow-empty -m "Dindoshi"
+git commit --allow-empty -m "Kurar"
+git commit --allow-empty -m "Akurli"
+git commit --allow-empty -m "Poisar"
+git commit --allow-empty -m "Magathane"
+git commit --allow-empty -m "Devipada"
+git commit --allow-empty -m "Rashtriya Udyan"
+git commit --allow-empty -m "Ovaripada"
+git commit --allow-empty -m "Dahisar East"
+git commit --allow-empty -m "Anand Nagar"
+git commit --allow-empty -m "Kandarpada"
+git commit --allow-empty -m "Mandapeshwar"
+git commit --allow-empty -m "Eksar"
+git commit --allow-empty -m "Borivali West"
+git commit --allow-empty -m "Shimpoli"
+git commit --allow-empty -m "Kandivali"
+git commit --allow-empty -m "Dahanukar Wadi"
+git commit --allow-empty -m "Valnai-Meeth Chowky"
+git commit --allow-empty -m "Malad West"
+git commit --allow-empty -m "Lower Malad"
+git commit --allow-empty -m "Bangur Nagar"
+git commit --allow-empty -m "Goregaon West"
+git commit --allow-empty -m "Oshiwara"
+git commit --allow-empty -m "Lower Oshiwara"
+git commit --allow-empty -m "Andheri West"
+
+
+git checkout Metro-Ghatkopar-Versova
+git merge Metro-Gundavali-Andheri-West --no-ff --no-edit
+
+git commit --allow-empty -m "Versova"
+
+git checkout Harbour
+git commit --allow-empty -m "Bandra"
+git commit --allow-empty -m "Khar Road"
+git commit --allow-empty -m "Santacruz"
+git commit --allow-empty -m "Vile Parle"
+git commit --allow-empty -m "Andheri"
+
+git commit --allow-empty -m "Jogeshwari"
+git commit --allow-empty -m "Ram Mandir"
+git commit --allow-empty -m "Goregaon"
+git commit --allow-empty -m "Malad (Under Construction)"
+git commit --allow-empty -m "Kandivali (Under Construction)"
+git commit --allow-empty -m "Borivali (Under Construction)"
+
+git checkout Western
+git commit --allow-empty -m "Bandra"
+git commit --allow-empty -m "Khar Road"
+git commit --allow-empty -m "Santacruz"
+git commit --allow-empty -m "Vile Parle"
+git commit --allow-empty -m "Andheri"
+git commit --allow-empty -m "Jogeshwari"
+git commit --allow-empty -m "Ram Mandir"
+git commit --allow-empty -m "Goregaon"
+git commit --allow-empty -m "Malad"
+git commit --allow-empty -m "Kandivli"
+git commit --allow-empty -m "Borivali"
+git commit --allow-empty -m "Dahisar"
+git commit --allow-empty -m "Mira Road"
+git commit --allow-empty -m "Bhayandar"
+git commit --allow-empty -m "Naigaon"
+git commit --allow-empty -m "Vasai Road"
+git commit --allow-empty -m "Nallasopara"
+git commit --allow-empty -m "Virar"
+git commit --allow-empty -m "Vaitarna"
+git commit --allow-empty -m "Saphale"
+git commit --allow-empty -m "Kelve Road"
+git commit --allow-empty -m "Palghar"
+git commit --allow-empty -m "Umroli"
+git commit --allow-empty -m "Boisar"
+git commit --allow-empty -m "Vangaon"
+git commit --allow-empty -m "Dahanu Road"
+
+
+git checkout Central
+git commit --allow-empty -m "Kalwa"
+git commit --allow-empty -m "Mumbra"
+git commit --allow-empty -m "Diva Junction"
+git commit --allow-empty -m "Kopar"
+
+git checkout <Commit-Hash> <-- Vasai Road
+git branch Indian-Rail
+git checkout Indian-Rail
+git commit --allow-empty -m "Vasai Road"
+git commit --allow-empty -m "Juchandra"
+git commit --allow-empty -m "Kaman Road"
+git commit --allow-empty -m "Kharbao"
+git commit --allow-empty -m "Bhiwandi Road"
+git commit --allow-empty -m "Kopar"
+
+git checkout Central
+git merge Indian-Rail --no-ff --no-edit
+
+
+git commit --allow-empty -m "Dombivli"
+git commit --allow-empty -m "Thakurli"
+git commit --allow-empty -m "Kalyan Junction"
+
+
+git checkout <Commit-Hash> <-- Thane
+git branch Thane-Vashi-branch
+git checkout Thane-Vashi-branch
+git commit --allow-empty -m "Thane"
+git commit --allow-empty -m "Digha Gaon"
+git commit --allow-empty -m "Airoli"
+git commit --allow-empty -m "Rabale"
+git commit --allow-empty -m "Ghansoli"
+git commit --allow-empty -m "Kopar Khairane"
+git commit --allow-empty -m "Turbhe"
+git commit --allow-empty -m "Sanpada"
+git commit --allow-empty -m "Vashi"
+
+git checkout <Commit-Hash> <-- Turbhe
+git branch Turbhe-Panvel-Branch
+git checkout Turbhe-Panvel-Branch
+git commit --allow-empty -m "Juinagar"
+git commit --allow-empty -m "Nerul"
+git commit --allow-empty -m "Seawoods–Darave"
+git commit --allow-empty -m "CBD Belapur"
+git commit --allow-empty -m "Kharghar"
+git commit --allow-empty -m "Mansarovar"
+git commit --allow-empty -m "Khandeshwar"
+git commit --allow-empty -m "Panvel"
+
+git checkout <Commit-Hash> <-- Kurla which goes to panel harbour branch
+git branch harbour-kurla-panvel
+git checkout harbour-kurla-panvel
+git commit --allow-empty -m "Tilak Nagar"
+git commit --allow-empty -m "Chembur"
+git commit --allow-empty -m "Govandi"
+git commit --allow-empty -m "Mankhurd"
+git commit --allow-empty -m "Vashi"
+git commit --allow-empty -m "Sanpada"
+git commit --allow-empty -m "Juinagar"
+git commit --allow-empty -m "Nerul"
+git commit --allow-empty -m "Seawoods-Darave"
+git commit --allow-empty -m "CBD Belapur"
+git commit --allow-empty -m "Kharghar"
+git commit --allow-empty -m "Mansarovar"
+git commit --allow-empty -m "Khandeshwar"
+git commit --allow-empty -m "Panvel"
+
+
+git merge Turbhe-Panvel-Branch --no-ff --no-edit
+
+git checkout Indian-Rail
+git commit --allow-empty -m "Diva Junction"
+git commit --allow-empty -m "Dativali"
+git commit --allow-empty -m "Nilaje"
+git commit --allow-empty -m "Taloja"
+git commit --allow-empty -m "Navade Road"
+git commit --allow-empty -m "Kalamboli"
+git commit --allow-empty -m "Panvel"
+
+
+git merge harbour-kurla-panvel --no-ff --no-edit
+
+git commit --allow-empty -m "Somtane"
+git commit --allow-empty -m "Rasayani"
+git commit --allow-empty -m "Apta"
+git commit --allow-empty -m "Jite"
+git commit --allow-empty -m "Hamrapur"
+git commit --allow-empty -m "Pen"
+git commit --allow-empty -m "Kasu"
+git commit --allow-empty -m "Nagothane"
+git commit --allow-empty -m "Nidi"
+git commit --allow-empty -m "Roha"
+
+
+
+git checkout <Commit-Hash> < Nerul harbaour to uran
+git branch Nerul-Uran-Branch
+git checkout Nerul-Uran-Branch
+git commit --allow-empty -m "Seawoods–Darave"
+git commit --allow-empty -m "CBD Belapur"
+git commit --allow-empty -m "Sagar Sangam"
+git commit --allow-empty -m "Targhar"
+git commit --allow-empty -m "Bamandongri"
+git commit --allow-empty -m "Kharkopar"
+git commit --allow-empty -m "Gavhan"
+git commit --allow-empty -m "Ranjanpada"
+git commit --allow-empty -m "Nhava Sheva"
+git commit --allow-empty -m "Dronagiri"
+git commit --allow-empty -m "Uran"
+
+git checkout <Commit-Hash>  < -- Chembur mono Rail
+git branch Mono-Rail-Chembur-SGMC-Branch
+git checkout Mono-Rail-Chembur-SGMC-Branch
+git commit --allow-empty -m "VNP and RC Marg Junction"
+git commit --allow-empty -m "Fertiliser Township"
+git commit --allow-empty -m "Bharat Petroleum"
+git commit --allow-empty -m "Mysore Colony"
+git commit --allow-empty -m "Bhakti Park"
+git commit --allow-empty -m "Wadala Depot"
+git commit --allow-empty -m "Guru Tegh Bahadur Nagar"
+git commit --allow-empty -m "Antop Hill"
+git commit --allow-empty -m "Acharya Atre Nagar"
+git commit --allow-empty -m "Wadala Bridge"
+git commit --allow-empty -m "Dadar (East)"
+git commit --allow-empty -m "Naigaon"
+git commit --allow-empty -m "Ambedkar Nagar"
+git commit --allow-empty -m "Mint Colony"
+git commit --allow-empty -m "Lower Parel"
+git commit --allow-empty -m "Sant Gadge Maharaj Chowk"
+
+git checkout Central
+git commit --allow-empty -m "Shahad"
+git commit --allow-empty -m "Ambivli"
+git commit --allow-empty -m "Titwala"
+git commit --allow-empty -m "Khadavli"
+git commit --allow-empty -m "Vasind"
+git commit --allow-empty -m "Asangaon"
+git commit --allow-empty -m "Atgaon"
+git commit --allow-empty -m "Thansit"
+git commit --allow-empty -m "Khardi"
+git commit --allow-empty -m "Umbermali"
+git commit --allow-empty -m "Kasara"
+
+git checkout <Commit-Hash> <- Kalyan to Khopoli branch
+git branch Kalyan-Khopoli-Branch
+git checkout Kalyan-Khopoli-Branch
+git commit --allow-empty -m "Vithalwadi"
+git commit --allow-empty -m "Ulhasnagar"
+git commit --allow-empty -m "Ambarnath"
+git commit --allow-empty -m "Badlapur"
+git commit --allow-empty -m "Vangani"
+git commit --allow-empty -m "Shelu"
+git commit --allow-empty -m "Neral Junction"
+git commit --allow-empty -m "Bhivpuri Road"
+git commit --allow-empty -m "Karjat"
+git commit --allow-empty -m "Palasdari"
+git commit --allow-empty -m "Kelavli"
+git commit --allow-empty -m "Dolavli"
+git commit --allow-empty -m "Lowjee"
+git commit --allow-empty -m "Khopoli"
+
+git push origin Central
+git push origin Harbour
+git push origin Indian-Rail
+git push origin Kalyan-Khopoli-Branch
+git push origin Metro-Ghatkopar-Versova
+git push origin Metro-Gundavali-Andheri-West
+git push origin Mono-Rail-Chembur-SGMC-Branch
+git push origin Nerul-Uran-Branch
+git push origin Thane-Vashi-branch
+git push origin Turbhe-Panvel-Branch
+git push origin Wadala-Kurla
+git push origin Western
+git push origin harbour-kurla-panvel
