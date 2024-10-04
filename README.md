@@ -16,6 +16,12 @@ Take a look at the network graph of this repository:-   <br />
 
 https://github.com/Viddesh1/Mumbai-Railway-Network/network <br />
 
+Git-bash command:
+
+```bash
+git log --graph --all --decorate --oneline
+```
+
 This git network graph is still far from perfect and can contains lots of mistakes like merge 2 or 3 branches to make be some station names or lines.   <br />
 
 This repositoy is inspired by the below repository.     <br />
